@@ -10,9 +10,9 @@
 .bids-container-text h1{
   font-family: var(--font-family);
   font-weight: 600;
-  font-size: 28px;
+  font-size: 38px;
   line-height: 42px;
-  color: #FFFFFF;
+  color: #55E6F3;
   margin-bottom: 1rem;
 }
 .bids-container-card{
