@@ -62,7 +62,7 @@ const Footer = () => {
           <p>Instagram</p>
           </div>
           <div className="card-icon">
-          <a style={{ display: "flex" }} href="https://www.instagram.com/socio__club/?hl=en">
+          <a style={{ display: "flex" }} href="https://www.facebook.com/profile.php?id=100078175297249">
             <AiFillFacebook
               size={25}
               color="white"
