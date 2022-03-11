@@ -14,7 +14,7 @@ import chatbot from '../../assets/chatbot.gif'
 import Podcast from '../../assets/Podcast.gif'
 import Anonymous from '../../assets/Anonymous.gif'
 
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 const Bids = ({title}) => {
   return (
@@ -28,9 +28,9 @@ const Bids = ({title}) => {
             <div className="bids-card">
               <div className="bids-card-top">
                 <img src={Game} alt="" />
-              <Link to={`/post/123`}>
+              {/* <Link to={`/post/123`}> */}
               <p className="bids-title">Games</p>
-              </Link>
+              {/* </Link> */}
               </div>
               {/* <div className="bids-card-bottom">
                 <p>1.25 <span>ETH</span></p>
@@ -42,9 +42,9 @@ const Bids = ({title}) => {
             <div className="bids-card">
               <div className="bids-card-top">
                 <img src={readingbook} alt="" />
-              <Link to={`/post/123`}>
+              {/* <Link to={`/post/123`}> */}
               <p className="bids-title">Books</p>
-              </Link>
+              {/* </Link> */}
               </div>
               
             </div>
@@ -53,9 +53,9 @@ const Bids = ({title}) => {
             <div className="bids-card">
               <div className="bids-card-top">
                 <img src={audiobook} alt="" />
-              <Link to={`/post/123`}>
+              {/* <Link to={`/post/123`}> */}
               <p className="bids-title">Audio Books</p>
-              </Link>
+              {/* </Link> */}
               </div>
               
             </div>
@@ -64,9 +64,9 @@ const Bids = ({title}) => {
             <div className="bids-card">
               <div className="bids-card-top">
                 <img src={News} alt="" />
-              <Link to={`/post/123`}>
+              {/* <Link to={`/post/123`}> */}
               <p className="bids-title">News</p>
-              </Link>
+              {/* </Link> */}
               </div>
              
             </div>
@@ -75,9 +75,9 @@ const Bids = ({title}) => {
             <div className="bids-card">
               <div className="bids-card-top">
                 <img src={Contest} alt="" />
-              <Link to={`/post/123`}>
+              {/* <Link to={`/post/123`}> */}
               <p className="bids-title">Contests</p>
-              </Link>
+              {/* </Link> */}
               </div>
             
             </div>
@@ -86,9 +86,9 @@ const Bids = ({title}) => {
             <div className="bids-card">
               <div className="bids-card-top">
                 <img src={Crypto} alt="" />
-              <Link to={`/post/123`}>
+              {/* <Link to={`/post/123`}> */}
               <p className="bids-title">NFT'S</p>
-              </Link>
+              {/* </Link> */}
               </div>
             
             </div>
@@ -97,9 +97,9 @@ const Bids = ({title}) => {
             <div className="bids-card">
               <div className="bids-card-top">
                 <img src={Music} alt="" />
-              <Link to={`/post/123`}>
+              {/* <Link to={`/post/123`}> */}
               <p className="bids-title">Music</p>
-              </Link>
+              {/* </Link> */}
               </div>
            
             </div>
@@ -108,9 +108,9 @@ const Bids = ({title}) => {
             <div className="bids-card">
               <div className="bids-card-top">
                 <img src={Radio} alt="" />
-              <Link to={`/post/123`}>
+              {/* <Link to={`/post/123`}> */}
               <p className="bids-title">Radio</p>
-              </Link>
+              {/* </Link> */}
               </div>
             
             </div>
@@ -119,9 +119,9 @@ const Bids = ({title}) => {
             <div className="bids-card">
               <div className="bids-card-top">
                 <img src={chatbot} alt="" />
-              <Link to={`/post/123`}>
+              {/* <Link to={`/post/123`}> */}
               <p className="bids-title">Chatbot</p>
-              </Link>
+              {/* </Link> */}
               </div>
              
             </div>
@@ -130,9 +130,9 @@ const Bids = ({title}) => {
             <div className="bids-card">
               <div className="bids-card-top">
                 <img src={Memes} alt="" />
-              <Link to={`/post/123`}>
+              {/* <Link to={`/post/123`}> */}
               <p className="bids-title">Memes</p>
-              </Link>
+              {/* </Link> */}
               </div>
               
             </div>
@@ -141,9 +141,9 @@ const Bids = ({title}) => {
             <div className="bids-card">
               <div className="bids-card-top">
                 <img src={Podcast} alt="" />
-              <Link to={`/post/123`}>
+              {/* <Link to={`/post/123`}> */}
               <p className="bids-title">Podcasts</p>
-              </Link>
+              {/* </Link> */}
               </div>
               
             </div>
@@ -152,9 +152,9 @@ const Bids = ({title}) => {
             <div className="bids-card">
               <div className="bids-card-top">
                 <img src={Anonymous} alt="" />
-              <Link to={`/post/123`}>
+              {/* <Link to={`/post/123`}> */}
               <p className="bids-title">Anonymous</p>
-              </Link>
+              {/* </Link> */}
               </div>
              
             </div>
