@@ -10,8 +10,12 @@ import seller4 from '../../assets/seller4.png'
 import seller5 from '../../assets/seller5.png'
 import seller6 from '../../assets/seller6.jpg'
 import verify from '../../assets/verify.png'
-import coin from '../../assets/coin.png'
+import torch from '../../assets/torch.gif'
+import newGoogle from '../../assets/newGoogle.png'
+import winner from '../../assets/winner.gif'
+
 import { Link  } from 'react-router-dom';
+import { Grid } from '@mui/material';
 const Header = () => {
   var settings = {
     dots: false,
@@ -74,81 +78,37 @@ const Header = () => {
     <div className='header section__padding'>
       <div className="header-content">
         <div>
-          <h1>Discover, collect, and sell extraordinary NFTs</h1>
-          <img className='shake-vertical' src={coin} alt="" />
+          <h1>New Social and Entertainment platform - Socio Club</h1>
+          <p>Sink Yourself Into Vibes</p>
+          {/* <a href=''>
+          <img  src='http://assets.stickpng.com/images/5a902dbf7f96951c82922875.png'/>
+            </a> */}
         </div>
+          {/* <img className='shake-vertical' src={torch} alt="" /> */}
       </div>
+      
       <div className="header-slider">
-        <h1>Top Sellers</h1>
-       <Slider {...settings} className='slider'>
-            <div className='slider-card'>
-              <p className='slider-card-number'>1</p>
-              <div className="slider-img">
-                <img src={seller1} alt="" />
-                <img src={verify} className='verify' alt="" />
-              </div>
-              <Link to={`/profile/Rian`}>
-              <p className='slider-card-name'>James Bond</p>
-              </Link>
-              <p className='slider-card-price'>5.250 <span>ETH</span></p>
-            </div>
-            <div className='slider-card'>
-              <p className='slider-card-number'>2</p>
-              <div className="slider-img">
-                <img src={seller2} alt="" />
-                <img src={verify} className='verify' alt="" />
-              </div>
-              <Link to={`/profile/Rian`}>
-              <p className='slider-card-name'>Rian Leon</p>
-              </Link>
-              <p className='slider-card-price'>4.932 <span>ETH</span></p>
-            </div>
-            <div className='slider-card'>
-              <p className='slider-card-number'>3</p>
-              <div className="slider-img">
-                <img src={seller3} alt="" />
-                <img src={verify} className='verify' alt="" />
-              </div>
-              <Link to={`/profile/Rian`}>
-              <p className='slider-card-name'>Lady Young</p>
-              </Link>
-              <p className='slider-card-price'>4.620 <span>ETH</span></p>
-            </div>
-            <div className='slider-card'>
-              <p className='slider-card-number'>4</p>
-              <div className="slider-img">
-                <img src={seller4} alt="" />
-                <img src={verify} className='verify' alt="" />
-              </div>
-              <Link to={`/profile/Rian`}>
-              <p className='slider-card-name'>Black Glass</p>
-              </Link>
-              <p className='slider-card-price'>4.125 <span>ETH</span></p>
-            </div>
-            <div className='slider-card'>
-              <p className='slider-card-number'>5</p>
-              <div className="slider-img">
-                <img src={seller5} alt="" />
-                <img src={verify} className='verify' alt="" />
-              </div>
-              <Link to={`/profile/Rian`}>
-              <p className='slider-card-name'>Budhiman</p>
-              </Link>
-              <p className='slider-card-price'>3.921 <span>ETH</span></p>
-            </div>
-            <div className='slider-card'>
-              <p className='slider-card-number'>6</p>
-              <div className="slider-img">
-                <img src={seller6} alt="" />
-                <img src={verify} className='verify' alt="" />
-              </div>
-              <Link to={`/profile/Rian`}>
-              <p className='slider-card-name'>Alex</p>
-              </Link>
-              <p className='slider-card-price'>3.548 <span>ETH</span></p>
-            </div>
-        </Slider>
+        <Grid container>
+        <Grid item md={1}/>
+
+        <Grid item md={4} xs={12}>
+        <div className='trophy'>
+
+        <img src={winner}  alt=''/>
+        </div>
+          </Grid>
+          <Grid item md={1}/>
+          <Grid item md={5} xs={12} className='contests-p'>
+            
+        <p>participate in Contests for Free and win rewards</p>
+            </Grid>
+          </Grid>
+         
       </div>
+      <div className='googleplay'>
+        <p>Get in on Google Playstore</p>
+        <img src={newGoogle} className='gpay-anime'/>
+        </div>
     </div>
   )
 }

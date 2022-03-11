@@ -41,10 +41,11 @@
 .bids-card-top p{
   font-family: var(--font-family);
   font-weight: 600;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 21px;
   color: #FFFFFF;
   margin-top: 15px;
+  text-align: center;
 }
 .bids-card-bottom{
   display: flex;

@@ -27,12 +27,13 @@ const Menu = () => (
     <div className='navbar'>
       <div className="navbar-links">
         <div className="navbar-links_logo">
+          
           <img src={logo} alt="logo" />
-          <Link to="/"> 
-            <h1>CryptoKet</h1>
-          </Link>
+          {/* <Link to="/"> 
+            <h1>Socio Club</h1>
+          </Link> */}
         </div>
-        <div className="navbar-links_container">
+        {/* <div className="navbar-links_container">
           <input type="text" placeholder='Search Item Here' autoFocus={true} />
          <Menu />
          {user && <Link to="/"><p onClick={handleLogout}>Logout</p></Link> }
@@ -50,10 +51,10 @@ const Menu = () => (
       ): (
         <>
         <Link to="/login"> 
-         <button type='button' className='primary-btn' onClick={handleLogin} >Sign In</button>
+         <button type='button' className='primary-btn' onClick={handleLogin} >Contact</button>
         </Link>
         <Link to="/register"> 
-          <button type='button' className='secondary-btn'>Sign Up</button>
+          <button type='button' className='secondary-btn'> Features</button>
         </Link>
         </>
       )}
@@ -92,6 +93,7 @@ const Menu = () => (
             </div>
             </div>
         )}
+      </div> */}
       </div>
     </div>
   )

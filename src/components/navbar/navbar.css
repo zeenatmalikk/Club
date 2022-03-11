@@ -8,24 +8,32 @@
 .navbar-links{
   flex: 1;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 }
 .navbar-links_logo{
   margin-right: 2rem;
   display: flex;
   align-items: center;
+  justify-content: center;
   color: white;
-
+  border-radius: 20px;
+background-color: #fff;
+height: 150px;
+width: 150px;
+padding: 10px;
 }
 .navbar-links_logo h1{
   font-family: var(--font-family);
   font-weight: bold;
-  font-size: 18px;
+  font-size: 38px;
   line-height: 17px;
 }
 .navbar-links_logo img{
   margin-right: 5px;
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
 }
 .navbar-links_container{
   display: flex;
@@ -63,16 +71,17 @@
 .navbar-sign .primary-btn,
 .navbar-menu_container-links-sign .primary-btn
 {
-  background: var(--primary-btn);
+  background: initial;
   border-radius: 10px;
+  color: #Fff;
 }
 .navbar-sign .secondary-btn,
 .navbar-menu_container-links-sign .secondary-btn
 {
   background: transparent;
-  border: 1px solid var(--primary-color);
+  border: none;
   margin: 0 1rem;
-  color: var(--primary-color);
+  color: #fff;
   border-radius: 10px;
 }
 
