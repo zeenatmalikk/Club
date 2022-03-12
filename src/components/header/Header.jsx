@@ -78,7 +78,7 @@ const Header = () => {
     <div className='header section__padding'>
       <div className="header-content">
         <div>
-          <h1>New Social and Entertainment platform  Socio-Club</h1>
+          <h1>Social And Entertainment Super Platform  Socio-Club</h1>
           <p>Sink Yourself Into Vibes</p>
           {/* <a href=''>
           <img  src='http://assets.stickpng.com/images/5a902dbf7f96951c82922875.png'/>
